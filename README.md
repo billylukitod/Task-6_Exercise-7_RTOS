@@ -52,7 +52,7 @@ Proyek ini bertujuan untuk mendemonstrasikan cara mengeliminasi **resource conte
   - Setelah selesai, task dengan prioritas lebih rendah (FlashGreenLedTask) akan dilanjutkan.
  
   ## Foto Hardware
-![foto hardware exercise 6](https://github.com/user-attachments/assets/0f3f461e-80f2-455d-bc05-d8ad68fc95de)
+![eaecf4f0-0e41-4661-ad05-23c1e7ed05c0](https://github.com/user-attachments/assets/e3b1c937-8215-44a3-bf5e-cb722080e43b)
 
 
 ## Short Video Hardware
