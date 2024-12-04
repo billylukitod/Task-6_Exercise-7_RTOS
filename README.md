@@ -49,4 +49,12 @@ Proyek ini bertujuan untuk mendemonstrasikan cara mengeliminasi **resource conte
   - Kedua task menggunakan **critical section** untuk mengakses resource bersama, sehingga task lain tidak dapat menginterupsi akses ke resource tersebut.  
 - **Konflik Resource:**  
   - Jika kedua task mencoba mengakses resource bersama secara bersamaan, task dengan prioritas lebih tinggi (FlashRedLedTask) akan mendapatkan akses terlebih dahulu.  
-  - Setelah selesai, task dengan prioritas lebih rendah (FlashGreenLedTask) akan dilanjutkan.  
+  - Setelah selesai, task dengan prioritas lebih rendah (FlashGreenLedTask) akan dilanjutkan.
+ 
+  ## Foto Hardware
+![foto hardware exercise 6](https://github.com/user-attachments/assets/0f3f461e-80f2-455d-bc05-d8ad68fc95de)
+
+
+## Short Video Hardware
+https://github.com/user-attachments/assets/6042b776-4f29-4994-93fb-6dab5e20d747
+
