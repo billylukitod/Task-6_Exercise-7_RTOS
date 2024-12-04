@@ -56,5 +56,7 @@ Proyek ini bertujuan untuk mendemonstrasikan cara mengeliminasi **resource conte
 
 
 ## Short Video Hardware
-https://github.com/user-attachments/assets/6042b776-4f29-4994-93fb-6dab5e20d747
+https://github.com/user-attachments/assets/b63d12d2-c624-48d1-b94b-23fd03706d0f
+
+
 
