@@ -40,9 +40,13 @@ Proyek ini bertujuan untuk mendemonstrasikan cara mengeliminasi **resource conte
 - **Prioritas:** Above Normal  
 - **Perilaku:**  
   - Menyalakan LED merah selama 0,1 detik dengan periode lebih singkat.  
-  - Menggunakan critical section untuk mengakses resource bersama.  
+  - Menggunakan critical section untuk mengakses resource bersama.
 
-## **Tujuan Proyek**
-1. Menunjukkan bagaimana sistem RTOS menangani resource contention.  
-2. Meningkatkan pemahaman tentang penggunaan **critical section** untuk stabilitas multitasking.  
-3. Mengoptimalkan performa multitasking pada mikrokontroler STM32.
+## **Hubungan Antar Task**
+- **Prioritas:** FlashRedLedTask memiliki prioritas lebih tinggi daripada FlashGreenLedTask.  
+- **Eksekusi:**  
+  - Ketika **FlashRedLedTask** sedang berjalan, **FlashGreenLedTask** akan ditunda hingga **FlashRedLedTask** selesai.  
+  - Kedua task menggunakan **critical section** untuk mengakses resource bersama, sehingga task lain tidak dapat menginterupsi akses ke resource tersebut.  
+- **Konflik Resource:**  
+  - Jika kedua task mencoba mengakses resource bersama secara bersamaan, task dengan prioritas lebih tinggi (FlashRedLedTask) akan mendapatkan akses terlebih dahulu.  
+  - Setelah selesai, task dengan prioritas lebih rendah (FlashGreenLedTask) akan dilanjutkan.  
